@@ -1,0 +1,429 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"is",
+				"isNegation"
+			],
+			[
+				"node",
+				"nodeToString"
+			],
+			[
+				"inde",
+				"indexToNode"
+			],
+			[
+				"pare",
+				"parentNode"
+			],
+			[
+				"pid",
+				"pidVals"
+			],
+			[
+				"i",
+				"iTemp"
+			],
+			[
+				"retu",
+				"returnVal"
+			],
+			[
+				"get",
+				"getpid"
+			],
+			[
+				"cou",
+				"countPid"
+			],
+			[
+				"exe",
+				"execute_command"
+			],
+			[
+				"temp",
+				"temp"
+			],
+			[
+				"chil",
+				"current_child_pid"
+			],
+			[
+				"handler",
+				"signal_handler"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"b",
+				"beginend	$1.begin(), $1.end()"
+			],
+			[
+				"fou",
+				"foundAll"
+			],
+			[
+				"ex",
+				"expandedNodeCountRev"
+			],
+			[
+				"curr",
+				"currentRev"
+			],
+			[
+				"it",
+				"itTemp"
+			],
+			[
+				"cu",
+				"currentRev"
+			],
+			[
+				"op",
+				"openListRev"
+			],
+			[
+				"st",
+				"startRev"
+			],
+			[
+				"parent",
+				"parent"
+			],
+			[
+				"po",
+				"positionInIndexj"
+			],
+			[
+				"pos",
+				"positionInIndexj"
+			],
+			[
+				"posi",
+				"positionInIndexj"
+			],
+			[
+				"closed",
+				"closedList"
+			],
+			[
+				"ind",
+				"indexToNode"
+			],
+			[
+				"cl",
+				"closedList"
+			],
+			[
+				"main",
+				"mainFunc"
+			],
+			[
+				"begi",
+				"beginend	$1.begin(), $1.end()"
+			],
+			[
+				"ema",
+				"emailGiven"
+			],
+			[
+				"te",
+				"tempStringtempmax"
+			],
+			[
+				"tem",
+				"tempStringc"
+			],
+			[
+				"str",
+				"strcpy"
+			],
+			[
+				"sta",
+				"startString"
+			],
+			[
+				"rea",
+				"reachable"
+			],
+			[
+				"expa",
+				"expandedNodeCount"
+			],
+			[
+				"positio",
+				"positionInIndex"
+			],
+			[
+				"fianl",
+				"finalB"
+			],
+			[
+				"finalS",
+				"finalS"
+			],
+			[
+				"fina",
+				"finalS"
+			],
+			[
+				"finalMa",
+				"finalMaxIt"
+			],
+			[
+				"finalM",
+				"finalMaxIt"
+			],
+			[
+				"s",
+				"s"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ssc",
+				"Set Syntax: C++"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 404.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/sashank/Acads/RnD/gitTess/tesseract-ocr/textord/scanedg.cpp",
+		"/home/sashank/Acads/RnD/ManasaWork/corpus/word_list",
+		"/home/sashank/Acads/RnD/ManasaWork/corpus/corpus",
+		"/home/sashank/Acads/RnD/gitTess/tesseract-ocr/textord/devanagari_processing.cpp",
+		"/home/sashank/Acads/AILab/temp.cpp",
+		"/home/sashank/Acads/AILab/A*.cpp",
+		"/home/sashank/Acads/AILab/TheoremProver.cpp",
+		"/home/sashank/Acads/RnD/Tesseract 3.02.02/tesseract-ocr/api/Makefile.in",
+		"/home/sashank/Acads/RnD/Tesseract 3.02.02/tesseract-ocr/api/Makefile.am",
+		"/home/sashank/Acads/RnD/leptonica-1.71/Makefile.in",
+		"/home/sashank/Acads/RnD/Tesseract 3.02.02/tesseract-ocr/api/Makefile",
+		"/home/sashank/Acads/CompilerLab/Lab2/lab-assignment-2.txt",
+		"/home/sashank/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/sashank/cpp/codeForces/287/1.cpp",
+		"/home/sashank/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/sashank/cpp/codeForces/GoodBye/temp",
+		"/home/sashank/cpp/codeForces/GoodBye/1.cpp",
+		"/home/sashank/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+		"/home/sashank/Acads/OSLab/Lab 3/lab3a/jash.c",
+		"/home/sashank/Acads/OSLab/Lab 3/lab3a/jashTappu.c",
+		"/home/sashank/Acads/OSLab/Lab 3/lab3a/jash",
+		"/home/sashank/Acads/OSLab/Lab 3/lab3a/temp.c",
+		"/home/sashank/Downloads/jashNew.c",
+		"/home/sashank/Acads/OSLab/Lab 3/lab3a/README.txt",
+		"/home/sashank/cpp/codeForces/temp.cpp",
+		"/home/sashank/cpp/codeForces/4.cpp",
+		"/home/sashank/cpp/codeForces/3.cpp",
+		"/home/sashank/cpp/codeForces/2ndQuiz/2.cpp",
+		"/home/sashank/cpp/codeForces/2ndQuiz/temp.cpp",
+		"/home/sashank/cpp/codeForces/2ndQuiz/1.cpp",
+		"/home/sashank/Acads/CompilerLab/Lab2/makefile",
+		"/home/sashank/Acads/CompilerLab/Lab1/main.cc",
+		"/home/sashank/Acads/CompilerLab/Lab1/lex-example.l",
+		"/home/sashank/Acads/RnD/Tesseract 3.02.02/tesseract-3.02.02 source/ccmain/applybox.cpp",
+		"/home/sashank/Desktop/TessInfo.txt",
+		"/home/sashank/cpp/temp.cpp",
+		"/home/sashank/Acads/CompilerLab/Tut1/lex.l",
+		"/home/sashank/Downloads/q1.cpp",
+		"/home/sashank/Acads/OSLab/Lab 2/120050050_120050057.cpp",
+		"/home/sashank/Downloads/q1(1).cpp",
+		"/home/sashank/Acads/RnD/Tesseract 3.02.02/Info.txt",
+		"/home/sashank/Desktop/120050050_120050057_Lab2/120050050_120050057.cpp",
+		"/home/sashank/Acads/OSLab/Lab 2/new.cpp",
+		"/home/sashank/Acads/OSLab/Lab 2/q1.cpp",
+		"/home/sashank/Acads/OSLab/Lab 2/120050050_120050057.CPP",
+		"/home/sashank/cpp/fb1.cpp",
+		"/home/sashank/cpp/codeForces/2.cpp",
+		"/home/sashank/cpp/codeForces/1.cpp",
+		"/home/sashank/cpp/Deepi.cpp",
+		"/home/sashank/cpp/permutaions.cpp",
+		"/home/sashank/cpp/fb.cpp"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"HE",
+			"scaninpu",
+			"indexToNode",
+			"libtesseract.a",
+			"ranlib /usr",
+			"ignored_pac",
+			"tempMax",
+			"temp",
+			"parallel",
+			"token",
+			"current_child_pid",
+			"printf",
+			"strcmp",
+			"execute_command",
+			"minNode",
+			"addChildren",
+			"new node",
+			"s",
+			"}\n",
+			"signal 2",
+			"Domain alre",
+			"}",
+			"Email added",
+			"printf",
+			";\n",
+			"cout",
+			"reverse"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "tesseract.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/cpp/codeForces/GoodBye/1.cpp"
+			],
+			[
+				"temp",
+				"~/cpp/codeForces/GoodBye/temp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 201.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
