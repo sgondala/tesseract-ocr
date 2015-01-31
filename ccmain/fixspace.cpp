@@ -239,6 +239,7 @@ void Tesseract::match_current_words(WERD_RES_LIST &words, ROW *row,
  *
  */
 inT16 Tesseract::eval_word_spacing(WERD_RES_LIST &word_res_list) {
+  tprintf("S : eval_word_spacing /ccmain/fixspace.cpp \n");
   WERD_RES_IT word_res_it(&word_res_list);
   inT16 total_score = 0;
   inT16 word_count = 0;

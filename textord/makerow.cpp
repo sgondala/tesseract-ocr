@@ -110,6 +110,7 @@ const int kMinLeaderCount = 5;
 // Returns the mean blob size.
 static float MakeRowFromBlobs(float line_size,
                               BLOBNBOX_IT* blob_it, TO_ROW_IT* row_it) {
+  tprintf("S : textors/makerow.cpp \n");
   blob_it->sort(blob_x_order);
   blob_it->move_to_first();
   TO_ROW* row = NULL;
@@ -199,6 +200,7 @@ float make_single_row(ICOORD page_tr, bool allow_sub_blobs,
  * Arrange the blobs into rows.
  */
 float make_rows(ICOORD page_tr, TO_BLOCK_LIST *port_blocks) {
+  tprintf("S : make_rows /textord/makerow.cpp \n");
   float port_m;                  // global skew
   float port_err;                // global noise
   TO_BLOCK_IT block_it;          // iterator
@@ -289,6 +291,7 @@ void compute_page_skew(                        //get average gradient
                        float &page_m,          //average gradient
                        float &page_err         //average error
                       ) {
+  tprintf("S : Compute_page_skew /textord/makerow.cpp \n");
   inT32 row_count;               //total rows
   inT32 blob_count;              //total_blobs
   inT32 row_err;                 //integer error
@@ -582,6 +585,7 @@ void delete_non_dropout_rows(                   //find lines
                              inT32 block_edge,  //left edge
                              BOOL8 testing_on   //correct orientation
                             ) {
+  tprintf("S : delete_non_dropout_rows /textord/makerow.cpp \n");
   TBOX block_box;                 //deskewed block
   inT32 *deltas;                 //change in occupation
   inT32 *occupation;             //of pixel coords
@@ -981,6 +985,7 @@ void expand_rows(                   //find lines
                  inT32 block_edge,  //edge of block
                  BOOL8 testing_on   //correct orientation
                 ) {
+  tprintf("S : expand_rows /textord/makerow.cpp \n ");
   BOOL8 swallowed_row;           //eaten a neighbour
   float y_max, y_min;            //new row limits
   float y_bottom, y_top;         //allowed limits
@@ -1804,6 +1809,7 @@ void separate_underlines(TO_BLOCK *block,  // block to do
                          float gradient,   // skew angle
                          FCOORD rotation,  // inverse landscape
                          BOOL8 testing_on) {  // correct orientation
+  tprintf("S : separate_underlines /textord/makerow.cpp \n");
   BLOBNBOX *blob;                // current blob
   C_BLOB *rotated_blob;          // rotated blob
   TO_ROW *row;                   // current row
@@ -2002,6 +2008,7 @@ void fit_parallel_rows(                   //find lines
  * row accordingly.
  */
 void fit_parallel_lms(float gradient, TO_ROW *row) {
+  tprintf("S : fit_parallel_lms, /textord/makerow.cpp \n");
   float c;                       // fitted line
   int blobcount;                 // no of blobs
    tesseract::DetLineFit lms;
@@ -2315,6 +2322,7 @@ void assign_blobs_to_rows(                      //find lines
                           BOOL8 make_new_rows,  //add rows for unmatched
                           BOOL8 drawing_skew    //draw smoothed skew
                          ) {
+  tprintf("S : Assign Blobs to rows /textord/makerow.cpp \n");
   OVERLAP_STATE overlap_result;  //what to do with it
   float ycoord;                  //current y
   float top, bottom;             //of blob

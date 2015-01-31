@@ -82,7 +82,7 @@ Tesseract::Tesseract()
     STRING_MEMBER(tessedit_char_whitelist, "",
                   "Whitelist of chars to recognize", this->params()),
     STRING_MEMBER(tessedit_char_unblacklist, "",
-                  "List of chars to override tessedit_char_blacklist",
+                  "List of chars to override tessedit_char_blacklist",                                 
                   this->params()),
     BOOL_MEMBER(tessedit_ambigs_training, false,
                 "Perform training for ambiguities", this->params()),

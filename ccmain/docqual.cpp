@@ -63,7 +63,9 @@ struct DocQualCallbacks {
  * left hand blob edge.
  *************************************************************************/
 inT16 Tesseract::word_blob_quality(WERD_RES *word, ROW *row) {
-  if (word->bln_boxes == NULL ||
+  tprintf("S : word_blob_quality /ccmain/doqual.cpp");
+
+   if (word->bln_boxes == NULL ||
       word->rebuild_word == NULL || word->rebuild_word->blobs.empty())
     return 0;
 
@@ -98,7 +100,8 @@ void Tesseract::word_char_quality(WERD_RES *word,
                                   ROW *row,
                                   inT16 *match_count,
                                   inT16 *accepted_match_count) {
-  if (word->bln_boxes == NULL ||
+ tprintf("S : word_char_quality /ccmain/doqual.cpp \n"); 
+ if (word->bln_boxes == NULL ||
       word->rebuild_word == NULL || word->rebuild_word->blobs.empty())
     return;
 

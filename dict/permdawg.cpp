@@ -174,6 +174,7 @@ void Dict::go_deeper_dawg_fxn(
  */
 WERD_CHOICE *Dict::dawg_permute_and_select(
     const BLOB_CHOICE_LIST_VECTOR &char_choices, float rating_limit) {
+  tprintf("S : dawg_permute_and_select /dict/permdawg.cpp \n");
   WERD_CHOICE *best_choice = new WERD_CHOICE(&getUnicharset());
   best_choice->make_bad();
   best_choice->set_rating(rating_limit);

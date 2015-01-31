@@ -18,7 +18,7 @@ extern "C" {
 #ifndef TESS_CALL
 #   if defined(WIN32)
 #       define TESS_CALL __cdecl
-#   else
+#   else 
 #       define TESS_CALL
 #   endif
 #endif

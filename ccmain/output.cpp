@@ -68,6 +68,7 @@ namespace tesseract {
 void Tesseract::output_pass(  //Tess output pass //send to api
                             PAGE_RES_IT &page_res_it,
                             const TBOX *target_word_box) {
+  tprintf("S : output_pass ccmain/output.cpp \n");
   BLOCK_RES *block_of_last_word;
   BOOL8 force_eol;               //During output
   BLOCK *nextblock;              //block of next word

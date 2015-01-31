@@ -106,6 +106,8 @@ void make_words(tesseract::Textord *textord,
                 float gradient,                // page skew
                 BLOCK_LIST *blocks,            // block list
                 TO_BLOCK_LIST *port_blocks) {  // output list
+
+  tprintf("S : make_words /textord/wordseg.cpp \n");
   TO_BLOCK_IT block_it;          // iterator
   TO_BLOCK *block;               // current block
 

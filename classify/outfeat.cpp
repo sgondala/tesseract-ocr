@@ -46,6 +46,7 @@ FEATURE_SET Classify::ExtractOutlineFeatures(TBLOB *Blob) {
  **	History: 11/13/90, DSJ, Created.
  **		05/24/91, DSJ, Updated for either char or baseline normalize.
  */
+  tprintf("S : ExtractOutlineFeatures /classify/outfeat.cpp \n");
   LIST Outlines;
   LIST RemainingOutlines;
   MFOUTLINE Outline;

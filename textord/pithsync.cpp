@@ -309,6 +309,7 @@ double check_pitch_sync2(                          //find segmentation
                          inT16 start,              //start of good range
                          inT16 end                 //end of good range
                         ) {
+  tprintf("S : check_pitch_sync2 /textord/pithsync.cpp \n");
   BOOL8 faking;                  //illegal cut pt
   BOOL8 mid_cut;                 //cheap cut pt.
   inT16 x;                       //current coord

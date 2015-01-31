@@ -36,6 +36,7 @@
 void block_edges(Pix *t_pix,           // thresholded image
                  PDBLK *block,         // block in image
                  C_OUTLINE_IT* outline_it) {
+  tprintf("%s\n","S : block_edges /textord/scanegd.cpp \n");
   ICOORD bleft;                  // bounding box
   ICOORD tright;
   BLOCK_LINE_IT line_it = block; // line iterator

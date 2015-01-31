@@ -175,7 +175,8 @@ namespace tesseract {
 SEAM *Wordrec::attempt_blob_chop(TWERD *word, TBLOB *blob, inT32 blob_number,
                                  bool italic_blob,
                                  const GenericVector<SEAM*>& seams) {
-  if (repair_unchopped_blobs)
+  tprintf("S : attempt_blob_chop wordrec/chopper.cpp \n");  
+ if (repair_unchopped_blobs)
     preserve_outline_tree (blob->outlines);
   TBLOB *other_blob = TBLOB::ShallowCopy(*blob);       /* Make new blob */
   // Insert it into the word.
